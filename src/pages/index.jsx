@@ -1,7 +1,11 @@
+import { Button } from "@mui/material";
+
 export default function Home() {
   return (
     <div>
-      <h1>OI</h1>
+      <Button color="primary">annyeonghaseyo</Button>
+      <Button color="primary" variant="contained">Contained</Button>
+      <Button color="secondary" variant="outlined">Outlined</Button>
     </div>
   );
 }
