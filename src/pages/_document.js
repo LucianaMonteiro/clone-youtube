@@ -9,7 +9,7 @@ export default function MyDocument(props) {
   const { emotionStyleTags } = props;
 
   return (
-    <Html lang="en" className={roboto.className}>
+    <Html lang="en">
       <Head>
         {/* PWA primary color */}
         <meta name="theme-color" content={theme.palette.primary.main} />
@@ -19,6 +19,10 @@ export default function MyDocument(props) {
           rel="shortcut icon"
           href="https://www.youtube.com/s/desktop/922a06b5/img/favicon.ico"
           type="image/x-icon"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:300,400,500,700&display=swap"
+          rel="stylesheet"
         ></link>
       </Head>
       <body>

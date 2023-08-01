@@ -1,5 +1,4 @@
-import theme from "@/pages/theme";
-import { makeStyles } from "@mui/styles";
+import { makeStyles } from "@material-ui/styles";
 import Head from "next/head";
 
 const useStyles = makeStyles((theme) => ({
